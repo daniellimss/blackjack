@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("casino-bg-v01.jpg");
+  /* background-size: 200em; */
+}
+.table {
+  background-color: #35654d;
+  width: 35em;
+  margin: 0 auto;
+  padding: 1em;
+}
+#dealer-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#your-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#hit {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#stay {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#again {
+  display: none;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+#results {
+  font-size: 20px;
+  font-weight: bold;
+}
