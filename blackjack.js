@@ -158,7 +158,7 @@ var reduceAce = function (playerSum, playerAceCount) {
   return playerSum;
 };
 
-location.onload = function () {
+window.location.onload = function () {
   buildDeck();
   shuffleDeck();
   startGame();
